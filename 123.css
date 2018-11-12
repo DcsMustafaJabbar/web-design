@@ -1,0 +1,28 @@
+.slider{width:400px;
+margin:auto;
+overflow:hidden;}
+
+
+    
+.slider ul{
+width:1500px;
+list-style:none;
+position:relative;
+animation:sliding 10s ease-in-out infinite
+}
+
+
+
+.slider ul li{
+    float:left;
+}
+
+
+
+@keyframes sliding
+{
+0%{left:0}
+33%{left:-400px}
+66%{left:-600px}
+100%{left:-800px}
+}
